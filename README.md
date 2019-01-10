@@ -35,5 +35,39 @@ $ irb
 
 Y mostrara algo similar a esto:
 ```
-irb(main):001:0> 
+irb(main):001:0>
 ```
+
+Ahora la puedes probrar con un ejemplo sencillo
+
+`irb(main):001:0> puts "Hello ruby world"`
+
+o tambien con:
+```
+irb(main):001:0> def sum(a, b)
+irb(main):002:1> a + b
+irb(main):003:1> end
+=> :sum
+irb(main):004:0> sum(5,4)
+=> 9
+```
+Bueno ahora si entremos un poco mas en el lenguaje, dentro de cada carpeta est dividido los temas, como una especie de capitulos, dentro de cada uno va a encontrar un archivo `README.md` y probablemente un archivo con extensión **rb**, algo así como `file.rb`, poco a poco vamos avanzando.
+
+***Manos a la obra***
+
+##CONTENIDO
+
+2. `RUBY.NEWS`
+*
+  1. `Ruby es un lenguaje orientado a objetos.`
+  2. `Algunas cosas basicas de Ruby.`
+  3. `Array y hashes`
+  4. `Symbols`
+  5. `Estructuras de control`
+  6. `Expresiones regulares`
+  7. `Bloques e iteradores`
+  8. `Leyendo y escribiendo`
+  9. `Argumentos en linea de comandos`
+  10. `Adelante y hacia arriba`
+
+3. `Next soon`
