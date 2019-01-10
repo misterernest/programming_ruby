@@ -1,4 +1,4 @@
-#RUBY ES UN LENGUAJE ORIENTADO A OBJETOS
+# RUBY ES UN LENGUAJE ORIENTADO A OBJETOS
 
 Ruby es un lenguaje geniuno orientado a objetos, lo que manipules es un objeto y
 todo lo que conlleva trabajar con objetos, como es el acceso a metodos y
@@ -40,3 +40,10 @@ irb(main):004:0> puts 74.even?
 true
 => nil
 ```
+
+Para poder visualizar el ejemplo del archivo example.rb debemo digitar el siguiente comando en la misma ubicación que se encuentra el archivo, pero sin abrir `irb` simplemente desde consola:
+
+`ruby example.rb`
+
+Para comenzar a familiarizarse pueden crear otro objeto con los mismos datos y
+revisar su id, tambien pueden revizar sus metodos y ver que pasa.
