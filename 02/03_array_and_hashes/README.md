@@ -57,12 +57,40 @@ En ruby estas dos son colecciones indexadas y pueden almacenar cualquier tipo de
     'violin'    => 'sting'
   }
 ```
-
-para acceder a una posición se realiza por medio de la llave:
+para acceder a una posición se realiza por medio de la llave (key index):
 
 ```
 puts inst_section['cello']
 ```
+
+Otra forma de incializar un hash es de la siguiente manera:
+
+```
+ejemplo = Hash.new()
+```
+Cuando se llame a la posición `0` mostrara `nil`, aunque el hash no sea nil
+
+```
+irb(main):016:0> ejemplo.nil?
+=> false
+irb(main):017:0> ejemplo[0]
+=> nil
+irb(main):018:0> ejemplo['prueba']
+=> nil
+
+```
+
+Para evitar esto se puede inicializar el hash en el momento de crearlo, y así no arroja `nil` cuando se pregunte por un valor que no existe:
+
+```
+irb(main):019:0> ejemplo = Hash.new(0)
+=> {}
+irb(main):020:0> ejemplo[0]
+=> 0
+irb(main):021:0> ejemplo['prueba']
+=> 0
+```
+
 
 ***Ahora puedes probar el archivo example.rb, desde consola con ruby example.rb o lo puedes hacer desde ruby copiando y pegando para que veas como funciona***
 
