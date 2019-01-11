@@ -57,3 +57,18 @@ Prueba el codigo escribiendo algo con *Perl* o *Python* y luego sin ellas.
 Así como hiciste en [rubular.com](https://rubular.com/)
 
 bueno si quieres hay un `example.rb`  si quieres probar.
+
+Y ahí les paso dos tips nuevos para manejo de String:
+
+
+* Con la funcion `sub` (`line.sub()`) reemplaza el primer 'Perl' con 'Ruby'
+```
+line = gets
+newline = line.sub(/Perl/, 'Ruby')
+```
+* con la función `gsub` (`line.gsub`) reemplaza todos los 'Python' con 'Ruby'
+```
+newerline = newline.gsub(/Python/, 'Ruby')
+```
+
+pruebala en el `irb` colocando texot con Python o con Perl.
