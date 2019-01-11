@@ -9,5 +9,7 @@ Pero como ruby quiere *programadores productivos y felices*
 
 #### Ejemplos de los `if`
 
+```
 if point > 10
   puts
+```
