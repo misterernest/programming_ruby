@@ -58,8 +58,7 @@ Bueno ahora si entremos un poco mas en el lenguaje, dentro de cada carpeta est d
 ##CONTENIDO
 
 2. `RUBY.NEWS`
-*
-  1. `Ruby es un lenguaje orientado a objetos.`
+* 1. `Ruby es un lenguaje orientado a objetos.`
   2. `Algunas cosas basicas de Ruby.`
   3. `Array y hashes`
   4. `Symbols`
@@ -71,3 +70,6 @@ Bueno ahora si entremos un poco mas en el lenguaje, dentro de cada carpeta est d
   10. `Adelante y hacia arriba`
 
 3. `Next soon`
+*
+9. `EXPRESSIONS`
+* 2. `Miscellaneous Expressions`
