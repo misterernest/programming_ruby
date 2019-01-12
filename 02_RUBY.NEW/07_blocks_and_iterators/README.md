@@ -100,3 +100,41 @@ cat
 dog
 ```
 dentro del each ya esta construido el ciclo, solo para ser implementado el metodo anonimo
+
+**METODO MAP**
+
+Es un metodo que se usa mucho, ya que este modifica la colección, y tambien esta `collect` que hace lo mismo que `map`
+```
+['H','A','L'].map {|x| x.succ}
+```
+```
+['H','A','L'].collect {|x| x.succ}
+```
+**METODO INJECT**
+
+este metodo tambien conocido como el *metodo obscuro* sirve para acumular un valor a traves del llamado de la colección.
+
+pruebalo en tu consola estos ejemplos:
+
+```
+[1, 3, 5, 7].inject(0) {|sum, element| sum + element}
+[1, 3, 5, 7].inject(1) {|operacion, element| operacion * element}
+```
+
+su expliación seria así:
+[`coleccion`].inject(`valor de inicializacion del acumulador`) {|`valor que lleva el acumulador`, `elemento actual de la colección`| `operación, en este caso suma de acumulador + elemento`}
+
+*Un tip: otra manera de hacer estos dos inject respectivamente es:*
+
+```
+[1, 3, 5, 7].inject{|sum, element| sum + element}
+[1, 3, 5, 7].inject {|operacion, element| operacion * element}
+```
+El detecta de donde inicia esta operación que es muy común:
+
+O mejor aun la siguiente manera de hacerlo mas sencillo es:
+
+```
+[1, 3, 5, 7].inject(:+)
+[1, 3, 5, 7].inject(:*)
+```
