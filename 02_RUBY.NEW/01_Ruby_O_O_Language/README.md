@@ -1,5 +1,8 @@
 # RUBY ES UN LENGUAJE ORIENTADO A OBJETOS
 
+> *En este capitulo nos dedicaremos solo a ver lo básico, para despues, en los capitulos siguientes, tocar mas a fondo cada uno de los temas.*
+
+
 Ruby es un lenguaje geniuno orientado a objetos, lo que manipules es un objeto y
 todo lo que conlleva trabajar con objetos, como es el acceso a metodos y
 atributos.

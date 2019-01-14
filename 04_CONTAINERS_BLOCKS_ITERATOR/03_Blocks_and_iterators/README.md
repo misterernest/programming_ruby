@@ -41,3 +41,5 @@ enum_h.next
 ```
 
 Recuerda ver el archivo `example.rb` mira el ejemplo que tenemos!!.
+
+#### Blocks for Transactions
