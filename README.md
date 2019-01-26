@@ -67,7 +67,7 @@ Bueno ahora si entremos un poco mas en el lenguaje, dentro de cada carpeta est d
   7. `Bloques e iteradores`
   8. `Leyendo y escribiendo`
   9. `Argumentos en linea de comandos`
-  10. `Adelante y hacia arriba`
+  <br>***NOTA:*** `En este punto ya vimos un vista general, ahora veamos una vista mas especifica`
 
 3. `Next soon`
 *
