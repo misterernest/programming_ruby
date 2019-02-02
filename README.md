@@ -51,6 +51,13 @@ irb(main):003:1> end
 irb(main):004:0> sum(5,4)
 => 9
 ```
+
+Y para salir de la consola solo digitas:
+```
+irb(main):006:0> exit
+➜  xxx git:(branch_1)
+```
+
 Bueno ahora si entremos un poco mas en el lenguaje, dentro de cada carpeta est dividido los temas, como una especie de capitulos, dentro de cada uno va a encontrar un archivo `README.md` y probablemente un archivo con extensión **rb**, algo así como `example.rb`, poco a poco vamos avanzando.
 
 ***Manos a la obra***

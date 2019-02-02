@@ -16,4 +16,4 @@ Como si le hubieses pasado los siguientes argumentos:
 ["argumento1", "argumento2", "argumento3"]
 ```
 <!--  TODO colocar ubicación de ARGF y su explicación-->
-2. La segunda forma es `ARGF` que ya es procesamiento de archivso, o sus nombre, donde `ARGF`  es un tipo de objeto I/O. Lo cual lo veremos en una explicación mas a fondo de COMMAND-LINE ARGUMENTS, RUBY AND ITS WORLD.
+2. La segunda forma es `ARGF` que ya es procesamiento de archivso, o sus nombre, donde `ARGF`  es un tipo de objeto I/O. Lo cual lo veremos en una explicación mas a fondo de COMMAND-LINE ARGUMENTS, RUBY AND ITS WORLDch.
